@@ -1,8 +1,4 @@
-module EightBitAdder(
-A, 
-B, 
-SUM, 
-CO);
+module EightBitAdder(A, B, SUM, CO);
   
 	input  [7:0] A;  
 	input  [7:0] B;  
@@ -14,13 +10,7 @@ CO);
 	assign CO  = tmp [8];  
 endmodule
 
-module Accumulator_8bit(
-clock,
-accumulate,
-clear,
-in1,
-accum_out,
-overflow);
+module Accumulator_8bit(clock, accumulate, clear, in1, accum_out, overflow);
 
 	input clock;
 	input accumulate;
